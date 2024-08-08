@@ -45,16 +45,16 @@ function render(variables = {}) {
       ? "position-right"
       : "position-left"
   }">
-    <li><a href="https://twitter.com${
+    <li><a href="https://twitter.com/${
       variables.twitter ? variables.twitter : ""
     }"><i class="fab fa-twitter"></i></a></li>
-    <li><a href="https://github.com${
+    <li><a href="https://github.com/${
       variables.github ? variables.github : ""
     }"><i class="fab fa-github"></i></a></li>
-    <li><a href="https://linkedin.com${
+    <li><a href="https://linkedin.com/${
       variables.linkedin ? variables.linkedin : ""
     }"><i class="fab fa-linkedin"></i></a></li>
-    <li><a href="https://instagram.com${
+    <li><a href="https://instagram.com/${
       variables.instagram ? variables.instagram : ""
     }"><i class="fab fa-instagram"></i></a></li>
   </ul>
